@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/tasks/21547e06-37d1-450f-a59a-a85d98d34e66
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"API testleri tamamlandı\",\r
+
+    \  \"status\": \"completed\",\r
+
+    \  \"priority\": \"medium\"\r
+
+    }"
+order: 4340039055073851

@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/tasks
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \r
+
+    \  \"description\": \"CRUD endpointlerini test et 2\",\r
+
+    \  \"status\": \"pending\",\r
+
+    \  \"priority\": \"low\",\r
+
+    \  \"assignee\": \"Ahmet\"\r
+
+    }"
+order: 1792079694310
